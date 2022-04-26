@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Assignment-2</title>
+</head>
+<body>
+    <div>
+        <h1>1. Demo specifying the difference between rem,em,vh,vw,px.</h1>
+        <div class="container">
+            <h2>A. Demo of em</h2>
+            <div class="container1">1em  = 1 x  font set at parent element</div>
+            <div class="container2">1.5em  = 1.5 x  font set at parent element</div>
+            <div class="container3">2em  = 2 x  font set at parent element</div>
+        </div>
+        <div class="container">
+            <h2>B. Demo of rem</h2>
+            <div class="contain1">0.5rem  = 0.5 x font set at root element</div>  
+            <div class="contain2">1rem  = 1 x font set at root element</div>        
+            <div class="contain3">1.5rem  = 1.5 x font set at root element</div>  
+        </div>
+        <div class="container">
+            <h2>C. Demo of vw</h2>
+            <div class="vw">
+                Change the width of the window and the font size will change automatically.
+            </div>
+        </div>
+        <div class="container">
+            <h2>D. Demo of vh</h2>
+            <div class="vh">
+                Change the height of the window and the font size will change automatically.
+            </div>
+        </div>
+        <div class="container">
+            <h2>E. Demo of px</h2>
+            <div class="px">
+                It is an absolute length unit which is constant over all devices. It is the most common unit in length.
+            </div>
+        </div>
+        <h1>3. Demo specifying difference between css combinators (>,+,~)</h1>
+        <div class="container">
+            <h2>A. Demo of > combinator</h2>
+            <p>CSS is applied to the direct child of the parent.</p>
+            <section>
+                <p>CSS is not applied to any descendant of the parent who is not the direct child.</p>
+            </section>
+        </div>
+        <div class="container">
+            <h2>B. Demo of + combinator</h2>
+            <p>
+                <div>It is an Adjacent Sibling Selector.</div>
+                <div>It noly highlights element which is directly after another specific element.</div>
+            </p>
+            <div>Here is an adjacent element which is highlighted.</div>
+        </div>
+        <div class="container">
+            <h2>C. Demo of ~ combinator</h2>
+            <div>
+                <a>It is an Adjacent Sibling Selector.</a>
+                <a>It noly highlights element which is directly after another specific element.</a>
+            </div>
+            <a>Here is an adjacent element which is highlighted.</a>
+        </div>
+        <h1>4. Create a demo for css transition and transform.</h1>
+        <div class="hover">
+            <h2 class="content">Hover the Content and it will show effect of transition and transform</h2>
+        </div>
+    </div>
+</body>
+</html>
